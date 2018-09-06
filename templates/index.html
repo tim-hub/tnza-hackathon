@@ -14,42 +14,120 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">{{ result.name }}</a>
   </nav>
+  <br>
     <div class="container">
 
         <div class="row">
-            <div class="col-md-3">
-                <table class="table">
-  <thead>
-    <tr>
+            <div class="col-md-4">
+            <h4>
+                        User's Watching History
+            </h4>
+            <table class="table table-info table-striped">
+              <thead>
+                <tr>
 
-      <th scope="col">Title</th>
-      <th scope="col">Genre</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">URL</th>
+                  <th scope="col">Genre</th>
 
-    </tr>
-  </thead>
-  <tbody>
-    {% for r in result.history %}
+                </tr>
+              </thead>
+              <tbody>
+                {% for r in result.history %}
 
-    <tr>
-      <td>{{r[0]}}</td>
-      <td>{{r[3]}}</td>
+                <tr>
+                  <td>{{r[0]}}</td>
+                  <td>{{r[1]}}</td>
+                  <td>{{r[3]}}</td>
 
-    </tr>
-    {%endfor%}
+                </tr>
+                {%endfor%}
 
-  </tbody>
-</table>
-
-
-            </div>
-            <div class="col-md-6">
-
-            </div>
-            <div class="col-md-3">
+              </tbody>
+            </table>
 
             </div>
+            <div class="col-md-4 text-center">
+                <br>
+                <br>
+                <br>
+                <br>
+                <a class="btn btn-primary" href="/">
+                   Surprise Me!
+                </a>
 
-</div>
+            </div>
+            <div class="col-md-4">
+
+                <h4 class="text-center">
+                        {{result.results_name}}
+                </h4>
+
+                <table class="table table-success table-striped">
+                  <thead>
+                    <tr>
+
+                      <th scope="col">Title</th>
+                      <th scope="col">URL</th>
+                      <th scope="col">Genre</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for r in result.results %}
+
+                    <tr>
+                      <td>{{r[0]}}</td>
+                      <td>{{r[1]}}</td>
+                      <td>{{r[3]}}</td>
+
+                    </tr>
+                    {%endfor%}
+
+                  </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+
+        <h3>Sample Data Set</h3>
+
+        <div class="col-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+
+                  <th scope="col">Title</th>
+                  <th scope="col">URL</th>
+                  <th scope="col">Genre</th>
+                  <th scope="col">Subjectivity</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                {% for r in result.all %}
+
+                <tr>
+                  <td>{{r[0]}}</td>
+                  <td>{{r[1]}}</td>
+                  <td>{{r[3]}}</td>
+                  <td>{{r[5]}}</td>
+
+                </tr>
+                {%endfor%}
+
+              </tbody>
+
+        </table>
+
+
+        </div>
+        </div>
 
 
     </div>

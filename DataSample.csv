@@ -1,3 +1,15 @@
-title,url,description,genre1,genre2
-United States of Tara,https://www.tvnz.co.nz/shows/united-states-of-tara,"Tara, a suburban wife and mother, suffers from Dissociative Identity Disorder. There's never a dull moment, as her various personalities may appear on any given day... ",Comedy,Drama & Soaps
-American Housewife,https://www.tvnz.co.nz/shows/american-housewife,"Katie Mixon is many things, a housewife is just one. She's trying to raise a family, and stay true to herself among the perfect people of Conneticut.",Comedy,TVNZ 2
+id,title,url,description,genre1,genre2
+1,United States of Tara,https://www.tvnz.co.nz/shows/united-states-of-tara,"Tara, a suburban wife and mother, suffers from Dissociative Identity Disorder. There's never a dull moment, as her various personalities may appear on any given day... ",Comedy,Drama & Soaps
+2,American Housewife,https://www.tvnz.co.nz/shows/american-housewife,"Katie Mixon is many things, a housewife is just one. She's trying to raise a family, and stay true to herself among the perfect people of Conneticut.",Comedy,TVNZ 2
+3,2 Broke Girls,https://www.tvnz.co.nz/shows/2-broke-girls,They're faking it until they make it! Max and Caroline are back for an all-new season of 2 Broke Girls.,Comedy,Full Seasons
+4,Queer As Folk,https://www.tvnz.co.nz/shows/queer-as-folk,"Follow three gay men living in Manchester, as they fumble together through their tangled lives and loves. Starring Aidan Gillen, Craig Kelly and Charlie Hunnam. ",Full Seasons,TVNZ 2
+5,Bite Club,https://www.tvnz.co.nz/shows/bite-club,"After surviving a shark attack, Zoe and Dan meet again to reopen some old wounds. Survivors, detectives, and ex-lovers, they complement each other perfectly. Can they work together to catch a new breed of serial killer?",Adventure,Drama & Soaps
+6,Abandoned,https://www.tvnz.co.nz/shows/abandoned,"119 days adrift, but found on Great Barrier Island - this is the true story of The Rose Noelle... Made with the support of NZ on Air.",Adventure,Movie
+7,Baby Geniuses,https://www.tvnz.co.nz/shows/baby-geniuses,"Super-intelligent babies are held captive by scientists, but their experiments take a turn when there's a mix-up between a baby genius and his twin.",Kids,Movie
+8,AFL,https://www.tvnz.co.nz/shows/afl,Get up with the play and never miss a moment of the season! Watch games live on DUKE and catch all the action in our weekly highlights show.,sports,series
+9,MasterChef Australia ,https://www.tvnz.co.nz/shows/masterchef-australia,"MasterChef Australia is back for its 10th season! Jam-packed with the biggest, boldest challenges and culinary delights.",food,reality
+10,Apple Tree House,https://www.tvnz.co.nz/shows/apple-tree-house,"Mali's an ordinary boy, who moves into an extraordinary estate called Apple Tree House. Mali and his new friends go on adventures, and solve daily childhood problems with the help of their urban community",Kids,pre-school
+11,Animanimals,https://www.tvnz.co.nz/shows/animanimals,Join the wacky world of Animanimals!,Kids,pre-school
+12,A place to remember ,https://www.tvnz.co.nz/shows/a-place-to-remember,What happens to Christchurch? Follow the rebuild through the eyes of architects determined to ensure the past is remembered.,documentary ,factual
+13,Watch a plastic Tide,https://www.tvnz.co.nz/shows/a-plastic-tide,"More than 8 million tonnes of plastic end up in the ocean each year. By the middle of the century, there’ll be more plastic in the sea than fish. Scientist Thomas Moore investigates how we all have a part to play in turning back the plastic tide.",documentary ,factual
+14,20/20,https://www.tvnz.co.nz/shows/20-20,Keep up to date with the best of international current affairs,local,current affairs

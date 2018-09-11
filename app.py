@@ -90,17 +90,20 @@ def index():
         df_watched = shows.iloc[watched]
         #     the genre watched most by user
         the_genre = df_watched.genre1.mode().values[0]
-        #     the all videos on website data set
-        #     shuffle them
-        the_shows = shows.loc[(shows.genre1 == the_genre) ]
+
 
             # .sample(frac=1)
         #     and pick top 3 as results
         # remove uses watched
-        the_shows_concat = pd.concat([list_watched, the_shows]).drop_duplicates(keep=False)
+        the_shows_concat = pd.concat([list_watched, shows]).drop_duplicates(keep=False)
+
+
+        #     the all videos on website data set
+        #     shuffle them
+        the_shows = the_shows_concat.loc[(shows.genre1 == the_genre) ]
 
         # return random one suggestion
-        return  the_shows_concat.sample(frac=1).head(1)
+        return  the_shows.sample(frac=1).head(1)
 
 
     sugggestions = get_genre_watched_most(history_watched)
@@ -109,7 +112,7 @@ def index():
 
 
     return render_template('index.html', result={
-        'name': 'TVNZ  Random Suggestion',
+        'name': 'Demo of Surprise Me for TVNZ',
         'history': list_watched.values,
         'results_name': 'Suggestion From Surprise Me',
         'results': sugggestions.values,
